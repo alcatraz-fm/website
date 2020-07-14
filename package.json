@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "html-inline index.html > dist/index.html",
+    "dist": "rsync -r dist/* sawstudents@cosmopol.is:webapps/adventrous/",
+    "release": "npm run build && npm run dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/peakrider/website.git"
+  },
+  "homepage": "https://bitbucket.org/peakrider/website#readme",
+  "devDependencies": {
+    "html-inline": "^1.2.0"
+  }
+}
