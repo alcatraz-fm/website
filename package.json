@@ -1,15 +1,43 @@
 {
-  "scripts": {
-    "build": "html-inline index.html > dist/index.html",
-    "dist": "rsync -r dist/* sawstudents@cosmopol.is:webapps/adventrous/",
-    "release": "npm run build && npm run dist"
+  "title": "One Page Wonder",
+  "name": "startbootstrap-one-page-wonder",
+  "version": "5.0.1",
+  "description": "A one page HTML template built with Bootstrap",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://startbootstrap.com/template-overviews/one-page-wonder",
+  "bugs": {
+    "url": "https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/issues",
+    "email": "feedback@startbootstrap.com"
   },
+  "license": "MIT",
+  "author": "Start Bootstrap",
+  "contributors": [
+    "David Miller (http://davidmiller.io/)"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/peakrider/website.git"
+    "url": "https://github.com/BlackrockDigital/startbootstrap-one-page-wonder.git"
   },
-  "homepage": "https://bitbucket.org/peakrider/website#readme",
+  "dependencies": {
+    "bootstrap": "4.2.1",
+    "jquery": "3.3.1"
+  },
   "devDependencies": {
-    "html-inline": "^1.2.0"
+    "browser-sync": "2.26.3",
+    "gulp": "4.0.0",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-clean-css": "4.0.0",
+    "gulp-header": "2.0.7",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "^4.0.2",
+    "web3": "^1.0.0-beta.52"
   }
 }
