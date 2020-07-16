@@ -1,6 +1,6 @@
 @mixin heading-font {
     font-family: neue-kabel, sans-serif;
-    font-weight: 600;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -8,11 +8,4 @@
   font-family: futura-pt, sans-serif;
   font-weight: 400 !important;
   font-style: normal;
-}
-
-@mixin callout-font {
-    font-family: futura-pt-bold, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-transform: uppercase;
 }

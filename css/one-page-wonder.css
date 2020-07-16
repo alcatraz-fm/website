@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - One Page Wonder v5.0.1 (https://startbootstrap.com/template-overviews/one-page-wonder)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
@@ -22,45 +22,15 @@ h4,
 h5,
 h6 {
   font-family: neue-kabel, sans-serif;
-  font-weight: 600;
+  font-weight: 100;
   font-style: normal;
 }
 
 .display-4 {
   font-family: neue-kabel, sans-serif;
-  font-weight: 600;
+  font-weight: 100;
   font-style: normal;
   font-size: 3.0rem;
-}
-
-.btn {
-  font-family: futura-pt-bold, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-transform: uppercase;
-  border: 5px solid #2bfecd;
-  border-radius: 15px;
-  color: #ffffff;
-  padding: 0.5rem 3rem;
-}
-
-.btn:active, .btn:focus, .btn:hover {
-  color: #ffffff;
-  background-color: rgba(43, 254, 205, 0.25);
-}
-
-.bg-blue {
-  background: #4e7fff;
-  color: #ffffff;
-}
-
-.bg-blue a {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-.bg-blue a:hover {
-  color: #2bfecd;
 }
 
 .small {
@@ -69,48 +39,20 @@ h6 {
 
 .small a {
   text-decoration: underline;
-  color: white;
-}
-
-.small a:hover {
-  color: #fcedae;
 }
 
 .logo {
-  height: 10rem;
+  height: 20rem;
   padding-right: 1.4rem;
-  padding-bottom: 1.7rem;
-}
-
-.shadow.top {
-  -webkit-box-shadow: 0px -15px 10px -15px #232322;
-  box-shadow: 0px -15px 10px -15px #232322;
-}
-
-.shadow.bottom {
-  -webkit-box-shadow: 0px 15px 10px -15px #232322;
-  box-shadow: 0px 15px 10px -15px #232322;
-}
-
-.shadow.left {
-  -webkit-box-shadow: -15px 0px 10px -15px #232322;
-  box-shadow: -15px 0px 10px -15px #232322;
-}
-
-.shadow.right {
-  -webkit-box-shadow: 15px 0px 10px -15px #232322;
-  box-shadow: 15px 0px 10px -15px #232322;
 }
 
 .navbar-brand {
   font-family: neue-kabel, sans-serif;
-  font-weight: 600;
+  font-weight: 100;
   font-style: normal;
-  margin-top: 50px;
   font-size: 4rem;
   letter-spacing: 0.05rem;
   color: #232322;
-  padding-top: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -118,7 +60,7 @@ h6 {
     font-size: 2rem;
   }
   .logo {
-    height: 5rem;
+    height: 10rem;
     padding-right: 0;
     padding-bottom: 0.7rem;
   }

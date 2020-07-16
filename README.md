@@ -6,16 +6,18 @@ our home on the web
 
 ```sh
 npm install  # install deps
-gulp dev # run live updating preview with browsersync
+gulp dev # run locally
 ```
+
+with `gulp dev` you can modify .html and scss/ - page will live reload
+
 
 ## deploy
 
 ```
 gulp
+rsync -ravuP -e ssh css img vendor *.html *.css your-username@your-remote-server
 ```
-
-rsync to remote
 
 # license
 

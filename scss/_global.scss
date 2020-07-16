@@ -22,75 +22,11 @@ h6 {
     font-size: 3.0rem;
 }
 
-.btn {
-    @include callout-font;
-    border: 5px solid $brutalist-green;
-    border-radius: 15px;
-    color: $white;
-    padding: 0.5rem 3rem;
-
-    &:active,
-    &:focus,
-    &:hover {
-        color: $white;
-        background-color: fade-out($brutalist-green, 0.75);
-    }
-
-}
-
-
-// .bg-yellow {
-//     background: $daylight-yellow;
-// }
-
-.bg-blue{
-    background: $og-web-blue;
-    color: $white;
-    a {
-        color: $white;
-        text-decoration: underline;
-        &:hover {
-            color: $brutalist-green;
-        }
-    }
-}
-
-
-// .bg-black{
-//     background: $black;
-//     color: $white;
-// }
-
-
-// .rounded-pill {
-//     border-radius: 5rem;
-// }
-
-// .whitepapers {
-//     li {
-//         list-style-type: none;
-//         padding-top: 0.5em;
-//         padding-bottom: 0.5em;
-//     }
-//     a {
-//         color: $brutalist-green;
-//         font-size: 1.2em;
-//         text-decoration: underline;
-//     }
-//     a:hover {
-//         color: $daylight-yellow;
-//     }
-// }
-
 
 .small {
     font-size: 1.2rem;
     a {
         text-decoration: underline;
-        color: white;
-    }
-    a:hover {
-        color: $daylight-yellow;
     }
 }
 
